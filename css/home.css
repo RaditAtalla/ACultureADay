@@ -1,0 +1,36 @@
+.view-btn:hover {
+  background-color: white;
+  color: black !important;
+}
+
+.about-btn:hover {
+  font-weight: 600 !important;
+}
+
+.member-photo {
+  position: static !important;
+}
+
+@media (max-width: 1230px) {
+  h1{
+    font-size: 6rem !important;
+  }
+}
+
+@media (max-width: 980px) {
+  h1{
+    font-size: 4rem !important;
+  }
+}
+
+@media (max-width: 470px) {
+  h1{
+    font-size: 3rem !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .member-photo {
+    position: absolute !important;
+  }
+}
