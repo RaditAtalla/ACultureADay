@@ -28,6 +28,16 @@ const suku = [
     dance:
       "The Pa'dupa dance is a dance that shows that the Bugis people have guests or can be said to be a welcome dance from the Bugis tribe. The pa'duppa dance uses traditional Bodo clothing with complete decorations such as floral chain necklaces, bracelets, hair ornaments or headbands, earrings, and very glamorous wrist sleeves. The Pa'duppa dance is danced by beautiful girls. The music used is of course typical South Sulawesi music with Makassar drums, flutes, lutes and pui-pui.",
   },
+  {
+    name: "Jawa",
+    introduction:
+      "The largest Austronesian ethnic group in Indonesia originates from Central Java, East Java and the Special Region of Yogyakarta. In 2010, at least 40.22% of Indonesia's population was ethnic Javanese.[6] Apart from that, there are also Javanese tribes in New Caledonia and Suriname, because during the Dutch colonial period these tribes were brought there as workers. Currently, the Javanese tribe in Suriname is a minority there and is known as Surinamese Javanese. There are also large numbers of Javanese in most provinces of Indonesia, Malaysia, Singapore, Saudi Arabia, and the Netherlands.",
+    food: "Gudeg is a traditional Javanese dish from Yogyakarta and Central Java, Indonesia. Gudeg is made from young unripe jack fruit (Javanese: gori, Indonesian: nangka muda) stewed for several hours with palm sugar, and coconut milk.[3][4] Additional spices include garlic, shallot, candlenut, coriander seed, galangal, bay leaves, and teak leaves, the latter giving a reddish-brown color to the dish.[5] It is often described as 'green jack fruit sweet stew'.",
+    clothing:
+      "Surjan is official Javanese traditional upper clothing for men which is the work of Sunan Kalijaga. The basic material for surjan is mainly Lurik woven cloth, although it can also be made of floral patterned material or plain colored cloth. Sunan Kalijaga believes that there is social inequality in Majapahit society because the lower castes do not wear tops, so tops are made that also cover the private parts.",
+    dance:
+      "Srimpi or Serimpi is a form of classical Javanese dance repertoire (presentation) from the tradition of the Mataram Sultanate palace and has been continued to be preserved and developed until now by its four heir palaces in Surakarta and Yogyakarta",
+  },
 ];
 
 
