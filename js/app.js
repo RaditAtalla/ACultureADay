@@ -31,7 +31,7 @@ const suku = [
 ];
 
 
-let currIndex = 1
+let currIndex = 0
 
 function showData() {
   const cultureName = document.getElementById('cultureName')
