@@ -16,35 +16,49 @@
         <a href="/" data-aos="fade-down-right" data-aos-duration="500" class="text-light text-decoration-none">Home</a>
         <a href="/#about" data-aos="fade-down-right" data-aos-duration="600" class="text-light text-decoration-none">About this website</a>
       </nav>
-      <h1 class="fw-bold text-light" style="font-size: 8rem;" data-aos="fade-right" data-aos-duration="550">Javanese</h1>
+      <h1 class="fw-bold text-light" id="cultureName" style="font-size: 8rem;" data-aos="fade-right" data-aos-duration="550"></h1>
     </div>
   </header>
   <main class="container mt-5">
     <nav class="d-flex gap-3 flex-wrap">
-      <a href="" data-aos="fade-down" data-aos-duration="500" class="text-dark text-decoration-none">About</a>
-      <a href="" data-aos="fade-down" data-aos-duration="550" class="text-dark text-decoration-none">Language</a>
-      <a href="" data-aos="fade-down" data-aos-duration="600" class="text-dark text-decoration-none">Clothing</a>
-      <a href="" data-aos="fade-down" data-aos-duration="650" class="text-dark text-decoration-none">Food</a>
-      <a href="" data-aos="fade-down" data-aos-duration="700" class="text-dark text-decoration-none">Dance</a>
+      <a href="#about" data-aos="fade-down" data-aos-duration="500" class="text-dark text-decoration-none">About</a>
+      <a href="#food" data-aos="fade-down" data-aos-duration="600" class="text-dark text-decoration-none">food</a>
+      <a href="#clothing" data-aos="fade-down" data-aos-duration="650" class="text-dark text-decoration-none">Clothing</a>
+      <a href="#dance" data-aos="fade-down" data-aos-duration="700" class="text-dark text-decoration-none">Dance</a>
     </nav>
     <section id="about" class="my-5">
       <div class="d-flex gap-2" data-aos="fade-right">
         <div class="rounded" style="width: 5px; height: 50px; background-color: #E1C355;"></div>
         <h2 class="fw-semibold display-6">About</h2>
       </div>
-      <p class="fs-4 mt-2" data-aos="fade-right" data-aos-duration="600"="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet quod ducimus eaque laudantium aperiam perspiciatis perferendis, reiciendis laboriosam voluptate facere, deleniti fuga sequi. In, placeat! Incidunt nesciunt, laudantium expedita sapiente similique itaque, quae reiciendis illum quibusdam ad iure illo numquam libero consequuntur qui dicta magni perferendis, perspiciatis beatae voluptas? Facere quod eos perferendis quae est fugiat nihil rem aspernatur. Quia facere enim rem minus fugiat incidunt in qui repellendus molestias officia placeat cumque architecto saepe sapiente ab veniam, veritatis dolore dignissimos suscipit laudantium modi distinctio impedit minima. Quam tempora doloribus deserunt veniam? Numquam, vitae iure non consectetur quas nostrum. Facere.</p>
+      <p class="fs-4 mt-2" id="introData" data-aos="fade-right" data-aos-duration="600"=""></p>
     </section>
-    <section>
+    <section class="mt-5" id="food">
       <div class="d-flex gap-2" data-aos="fade-right">
         <div class="rounded" style="width: 5px; height: 50px; background-color: #E1C355;"></div>
-        <h2 class="fw-semibold display-6">Language</h2>
+        <h2 class="fw-semibold display-6">Food</h2>
       </div>
-      <p class="fs-4 mt-2" data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. A quisquam illum, ab debitis ducimus illo eos exercitationem dicta excepturi cupiditate, nihil voluptatum nostrum nisi consequuntur facilis facere quidem ratione odio, obcaecati error unde ut culpa esse animi. Corrupti doloribus maiores cum itaque sequi, architecto ipsa omnis eius, similique voluptate deserunt.</p>
+      <p class="fs-4 mt-2" id="foodData" data-aos="fade-right"></p>
+    </section>
+    <section class="mt-5" id="cloting">
+      <div class="d-flex gap-2" data-aos="fade-right">
+        <div class="rounded" style="width: 5px; height: 50px; background-color: #E1C355;"></div>
+        <h2 class="fw-semibold display-6">Clothing</h2>
+      </div>
+      <p class="fs-4 mt-2" id="clothingData" data-aos="fade-right"></p>
+    </section>
+    <section class="my-5" id="dance">
+      <div class="d-flex gap-2" data-aos="fade-right">
+        <div class="rounded" style="width: 5px; height: 50px; background-color: #E1C355;"></div>
+        <h2 class="fw-semibold display-6">Dance</h2>
+      </div>
+      <p class="fs-4 mt-2" id="danceData" data-aos="fade-right"></p>
     </section>
   </main>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+  <script src="../js/app.js"></script>
 </body>
 </html>
